@@ -153,7 +153,7 @@ public boolean processPlayer(Player p){
             bo_count++;
             status=true;
         }
-        if(status=true)
+        if(status==true)
         if("A".equals(team))
         teamACount++; else teamBCount++;
         
