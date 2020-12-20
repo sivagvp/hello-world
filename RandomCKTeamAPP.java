@@ -103,7 +103,7 @@ public void start()
     ArrayList<Integer> players11List=new ArrayList();
    
     int count=0;
-    while(count<=11)
+    while(count<11)
     {
          int random=getRandom(22);
        if( !players11List.contains(random) )
@@ -158,13 +158,13 @@ public boolean processPlayer(Player p){
         teamACount++; else teamBCount++;
         
     }
-   
+   System.out.println(p.name +","+status);
     
     return status;
 }
      public static void main(String []args){
          
-         new RandomCKTeamAPP().start();
+         new Main().start();
          
      }
      
