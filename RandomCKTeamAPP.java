@@ -10,22 +10,24 @@ import java.util.Map;
 public class RandomCKTeamAPP{
     
        HashMap<Integer,Player> players22=new HashMap<Integer,Player>();
-        HashMap<Integer,Player> players11=new HashMap<Integer,Player>();
-     private static int teamACount=0;
-     private static int teamBCount=0;
-      private static int MAX_TEAM_A_COUNT=6;
+       HashMap<Integer,Player> players11=new HashMap<Integer,Player>();
+       
+       private static int teamACount=0;
+       private static int teamBCount=0;
+       private static int wk_count=0;
+       private static int bt_count=0;
+       private static int al_count=0;
+       private static int bo_count=0;
+        
+       private static int MAX_TEAM_A_COUNT=6;
        private static int MAX_TEAM_B_COUNT=5;
        
         private static int MAX_WK_COUNT=1;
-         private static int MAX_BT_COUNT=4;
-          private static int MAX_AL_COUNT=2;
-           private static int MAX_BO_COUNT=4;
+        private static int MAX_BT_COUNT=4;
+        private static int MAX_AL_COUNT=2;
+        private static int MAX_BO_COUNT=4;
            
-           private static int wk_count=0;
-     private static int bt_count=0;
-     private static int al_count=0;
-     private static int bo_count=0;
-        
+          
        
      
      public RandomCKTeamAPP()
