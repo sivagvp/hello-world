@@ -170,7 +170,7 @@ public boolean processPlayer(Player p){
      
      public  int getRandom(int range)
      {
-           int Random = ((int)(Math.random()*7*11*100+1)%range);
+           int Random = ((int)(Math.random()*101*100+1)%range);
          //  System.out.println("Random:"+(Random+1));
            return Random+1;
      }
