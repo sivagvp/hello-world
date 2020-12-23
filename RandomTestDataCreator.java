@@ -30,7 +30,8 @@ SimpleDateFormat sdf = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss_SS");
 String strDate = sdf.format(cal.getTime());
 
    
- return data+"_"+strDate;
+// return data+"_"+strDate;
+   return  new StringBuilder(data).append("_").append(strDate).toString();
 }
 
 //This is for Testing purpose
